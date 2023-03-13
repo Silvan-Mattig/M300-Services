@@ -121,7 +121,21 @@ Damit die ISO-Datei Reproduzierbar ist, muss man es im gewünschten Verzeichnis 
 
 ### VM erstellen
 
+Die Schwirigkeit beim erstellen der VM lag bei der Dateigrösse... Ich hatte 10GB laut Anleitung genommen, das hat aber leider nicht funktioniert, da die VM immer wieder abstürzte... Also habe ich mich dazu entschieden 25GB zu nehmen, dannch hat es funktioniert. Wichtig ist ebenfalls dass man das richtige Medium ausgewählt hat. Die ISO Datei muss logischer Weise vorhanden sein.
 
 ### VM einrichten
 
+Wichtig ist, dass die VM läuft, dannch muss man sich beim Bash anmelden. Paketliste muss nei eingelesen werden und die Pakete Aktualisiert. Dafür braucht man die Befehle:
+
+```
+sudo apt-get update   
+
+#Paketlisten des Paketmanagement-Systems "APT" neu einlesen
+
+sudo apt-get upgrade   
+
+#Installierte Pakete wenn möglich auf verbesserte Versionen aktualisieren
+
+sudo reboot           #System-Neustart durchführen
+```
 
