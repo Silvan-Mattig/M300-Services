@@ -114,6 +114,14 @@ Damit wir fortfahren können, müssen wir VirtualBox herunterladen.
 
 ### ISO-Datei herunterladen
 
+
 Damit unsere VM später funktioniert, brauchen wir logischerweise eine ISO, am besten verwendet man gerade diese: [Ubuntu-ISO](https://ubuntu.com/#download)
+
+Damit die ISO-Datei Reproduzierbar ist, muss man es im gewünschten Verzeichnis ablegen. Hierzu muss man achten, dass es auf dem lokalen PC abgespeichert ist.
+
+### VM erstellen
+
+
+### VM einrichten
 
 
