@@ -61,3 +61,37 @@ git pull
 ```
 git status
 ```
+### Repository herunterladen & aktualisieren
+
+1. Zunächst wollen wir ein Ordner im gewünschten Verzeichnis wählen.
+
+```
+cd Wohin/auch/immer
+
+mkdir MeinLokalesRepository
+```
+2. Repository mit SSH klonen
+
+```
+git clone git@github.com:<Ihr Name>/my_M300.git
+```
+
+3.Jetzt machen wir wieder das gleiche wie bei der letzten Aufgabe. Somit aktualisiert und prüft man den Status.
+
+```
+git pull
+```
+
+### Repository hochladen
+
+1. Zum Verzeichnis wechseln
+
+```
+cd Pfad/zu/meinem/Repository
+```
+2. Die Daten hinzufügen, damit es beim Upload funktioniert
+
+```
+git add -A .
+```
+3. Die Bestätigung geben
