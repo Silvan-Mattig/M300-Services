@@ -94,4 +94,16 @@ cd Pfad/zu/meinem/Repository
 ```
 git add -A .
 ```
-3. Die Bestätigung geben
+3. Die Bestätigung geben.
+
+```
+git commit -m "Mein Kommentar"
+```
+4. Upload pushen
+
+```
+git push
+```
+
+## VirtualBox
+
