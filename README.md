@@ -107,3 +107,13 @@ git push
 
 ## VirtualBox
 
+### Software herunterladen & installieren
+
+Damit wir fortfahren können, müssen wir VirtualBox herunterladen. 
+[VirtualBox download](https://www.virtualbox.org/)
+
+### ISO-Datei herunterladen
+
+Damit unsere VM später funktioniert, brauchen wir logischerweise eine ISO, am besten verwendet man gerade diese: [Ubuntu-ISO](https://ubuntu.com/#download)
+
+
