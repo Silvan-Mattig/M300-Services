@@ -28,5 +28,36 @@ Folgende Befehle im Bash ausführen:
 ![GitHub Konto SSH Keys](Screenshot/Screenshot%202023-03-13%20143259.png)
 
 ## Git Client
+### Client installieren
 
 Den Git Client braucht man um Dateien auf Github Hoch und runter zuladen. [Git Download](https://git-scm.com/downloads)
+
+### Client konfigurieren
+1. Zunächst muss man zwei Befehle im Bash eingeben.
+
+```
+  git config --global user.name "<username>"
+  
+  git config --global user.email "<e-mail>"
+```
+### Repository klonen
+1. Als nächstes wollen wir ein Repository klonen, dies machen wir im Bash.
+
+```
+git clone https://gitlab.com/ch-tbz-it/Stud/m300/
+```
+2. Damit das funktioniert, muss man ins richtige Verzeichnis wechseln.
+```
+cd M300
+```
+3. Damit das Repository aktualisiert wird, muss man zunächst den Folgenden Befehl eingeben.
+
+```
+git pull
+```
+
+4. Um den Status anzuzeigen, kann man den folgenden Befehl eingeben.
+
+```
+git status
+```
