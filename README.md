@@ -11,3 +11,19 @@ Folgende Befehle im Bash ausführen:
     ```
     Generating public/private rsa key pair.
     ```
+3. Namensabfrage für den Schlüssel
+   ```
+   Enter a file in which to save the key (~/.ssh/id_rsa): 
+   ```
+4. Passwort setzten (Im ideal Fall hinterlegt man das gerade beim SSH-Agent)
+    ```
+    Enter passphrase (empty for no passphrase): [Passwort]
+    Enter same passphrase again: [Passwort wiederholen]
+    ``` 
+
+### SSH-Key dem SSH-Agent hinzufügen
+
+1. Man muss den Key bei seinem Account unter den Einstellungen hinterlegen:
+
+
+
