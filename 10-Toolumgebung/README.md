@@ -183,6 +183,16 @@ vagrant init ubuntu/xenial64
 vagrant up --provider virtualbox    
 ```
 
+3. Da die VM nun läuft, kann man über ssh zugreifen.
 
+```
+vagrant ssh
+```
+
+4. VM über GUI ausschalten.
+
+### Apache Webserver automatisiert aufsetzen
+
+1. 
 
 
