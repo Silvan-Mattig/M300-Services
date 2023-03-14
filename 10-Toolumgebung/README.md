@@ -139,3 +139,12 @@ sudo apt-get upgrade
 sudo reboot           #System-Neustart durchführen
 ```
 
+### Synaptic installieren
+
+1. Synaptic ist zur Verwaltung von Debian-Paketen gemacht, kann aber auch mit RPM-Paketen umgehen. Darum müssen wir das herunterladen.
+```
+ sudo apt-get install synaptic
+```
+2. Synaptic öffnen und apache öffnen
+3. 
+
