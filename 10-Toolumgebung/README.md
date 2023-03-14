@@ -1,6 +1,9 @@
-# M300-Services
+M300 - 10 Toolumgebung
+======
 
-## GitHub Account
+GitHub Account
+=======
+
 ### SSH-Key erstellen
 Folgende Befehle im Bash ausführen:
 1. Account E-Mail von Github eingeben
@@ -27,7 +30,8 @@ Folgende Befehle im Bash ausführen:
 
 ![GitHub Konto SSH Keys](Screenshot/Screenshot%202023-03-13%20143259.png)
 
-## Git Client
+Git Client
+======
 ### Client installieren
 
 Den Git Client braucht man um Dateien auf Github Hoch und runter zuladen. [Git Download](https://git-scm.com/downloads)
@@ -105,7 +109,9 @@ git commit -m "Mein Kommentar"
 git push
 ```
 
-## VirtualBox
+
+Virtualbox
+======
 
 ### Software herunterladen & installieren
 
@@ -153,20 +159,20 @@ sudo reboot
 
 Damit wir testen können, ob das ganze funktoniert hat, muss man prüfen, ob der Standard-Content des Webservers localhost erreichbar ist.
 
-
-## Vagrant
+Vagrant
+======
 
 Was ist Vagrant eigentlich?
 
 Ein Vagrant-file ist für die Automatisierung oder für die Reproduzierbarkeit. Somit kann man mit einer einfachen ausführung Virtuelle Maschienen erstellen lassen. Man kann nicht nur Virtuelle Maschienen erstellen sondern auch verwalten.
 
 
-### Software herunterladen & installieren
+## Software herunterladen & installieren
 
 1. Vagrant kann man unter dieser Internetseite herunterladen [Vagrant-Download](https://www.vagrantup.com/)
 2. Für die Installation muss man nichts beachten. Wenn man den Download abgeschlossen hat, kann man mit dem Erstellen der Virtuellen Maschienen anfangen.
 
-### Virtuelle Maschine erstellen
+## Virtuelle Maschine erstellen
 
 1. Damit wir ein sogennantes Vagrant-file erstellen können, müssen wir in ein gewünschtes Verzeichnis wechseln und dort einen Ordner erstellen. Nach dem erstellen des Ordners muss man auch gerade dort hin Navigieren.
 
@@ -193,6 +199,21 @@ vagrant ssh
 
 ### Apache Webserver automatisiert aufsetzen
 
-1. 
+
+Visual Studio Code
+======
+
+### Software herunterladen & installieren
+
+### Extensions installieren
+
+### Einstellungen anpassen
+
+### Repository hinzufügen & pushen
+
+Quellenverzeichnis
+======
+
+
 
 
