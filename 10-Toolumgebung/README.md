@@ -145,6 +145,44 @@ sudo reboot           #System-Neustart durchführen
 ```
  sudo apt-get install synaptic
 ```
-2. Synaptic öffnen und apache öffnen
-3. 
+2. Synaptic öffnen und apache installieren
+
+```
+sudo reboot
+```
+
+Damit wir testen können, ob das ganze funktoniert hat, muss man prüfen, ob der Standard-Content des Webservers localhost erreichbar ist.
+
+
+## Vagrant
+
+Was ist Vagrant eigentlich?
+
+Ein Vagrant-file ist für die Automatisierung oder für die Reproduzierbarkeit. Somit kann man mit einer einfachen ausführung Virtuelle Maschienen erstellen lassen. Man kann nicht nur Virtuelle Maschienen erstellen sondern auch verwalten.
+
+
+### Software herunterladen & installieren
+
+1. Vagrant kann man unter dieser Internetseite herunterladen [Vagrant-Download](https://www.vagrantup.com/)
+2. Für die Installation muss man nichts beachten. Wenn man den Download abgeschlossen hat, kann man mit dem Erstellen der Virtuellen Maschienen anfangen.
+
+### Virtuelle Maschine erstellen
+
+1. Damit wir ein sogennantes Vagrant-file erstellen können, müssen wir in ein gewünschtes Verzeichnis wechseln und dort einen Ordner erstellen. Nach dem erstellen des Ordners muss man auch gerade dort hin Navigieren.
+
+```
+cd Wohin/auch/immer
+mkdir MeineVagrantVM
+cd MeineVagrantVM
+```
+
+2. Vagrantfile erzeugen, VM erstellen und entsprechend starten:
+
+```
+vagrant init ubuntu/xenial64        
+vagrant up --provider virtualbox    
+```
+
+
+
 
