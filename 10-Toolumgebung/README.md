@@ -4,7 +4,7 @@ M300 - 10 Toolumgebung
 GitHub Account
 =======
 
-### SSH-Key erstellen
+### **SSH-Key erstellen**
 Folgende Befehle im Bash ausführen:
 1. Account E-Mail von Github eingeben
     ```
@@ -24,7 +24,7 @@ Folgende Befehle im Bash ausführen:
     Enter same passphrase again: [Passwort wiederholen]
     ``` 
 
-### SSH-Key dem SSH-Agent hinzufügen
+### **SSH-Key dem SSH-Agent hinzufügen**
 
 1. Man muss den Key bei seinem Account unter den Einstellungen hinterlegen:
 
@@ -32,11 +32,11 @@ Folgende Befehle im Bash ausführen:
 
 Git Client
 ======
-### Client installieren
+### **Client installieren**
 
 Den Git Client braucht man um Dateien auf Github Hoch und runter zuladen. [Git Download](https://git-scm.com/downloads)
 
-### Client konfigurieren
+### **Client konfigurieren**
 1. Zunächst muss man zwei Befehle im Bash eingeben.
 
 ```
@@ -44,7 +44,7 @@ Den Git Client braucht man um Dateien auf Github Hoch und runter zuladen. [Git D
   
   git config --global user.email "<e-mail>"
 ```
-### Repository klonen
+### **Repository klonen**
 1. Als nächstes wollen wir ein Repository klonen, dies machen wir im Bash.
 
 ```
@@ -65,7 +65,7 @@ git pull
 ```
 git status
 ```
-### Repository herunterladen & aktualisieren
+### **Repository herunterladen & aktualisieren**
 
 1. Zunächst wollen wir ein Ordner im gewünschten Verzeichnis wählen.
 
@@ -86,7 +86,7 @@ git clone git@github.com:<Ihr Name>/my_M300.git
 git pull
 ```
 
-### Repository hochladen
+### **Repository hochladen**
 
 1. Zum Verzeichnis wechseln
 
@@ -113,23 +113,23 @@ git push
 Virtualbox
 ======
 
-### Software herunterladen & installieren
+### **Software herunterladen & installieren**
 
 Damit wir fortfahren können, müssen wir VirtualBox herunterladen. 
 [VirtualBox download](https://www.virtualbox.org/)
 
-### ISO-Datei herunterladen
+### **ISO-Datei herunterladen**
 
 
 Damit unsere VM später funktioniert, brauchen wir logischerweise eine ISO, am besten verwendet man gerade diese: [Ubuntu-ISO](https://ubuntu.com/#download)
 
 Damit die ISO-Datei Reproduzierbar ist, muss man es im gewünschten Verzeichnis ablegen. Hierzu muss man achten, dass es auf dem lokalen PC abgespeichert ist.
 
-### VM erstellen
+### **VM erstellen**
 
 Die Schwirigkeit beim erstellen der VM lag bei der Dateigrösse... Ich hatte 10GB laut Anleitung genommen, das hat aber leider nicht funktioniert, da die VM immer wieder abstürzte... Also habe ich mich dazu entschieden 25GB zu nehmen, dannch hat es funktioniert. Wichtig ist ebenfalls dass man das richtige Medium ausgewählt hat. Die ISO Datei muss logischer Weise vorhanden sein.
 
-### VM einrichten
+### **VM einrichten**
 
 Wichtig ist, dass die VM läuft, dannch muss man sich beim Bash anmelden. Paketliste muss nei eingelesen werden und die Pakete Aktualisiert. Dafür braucht man die Befehle:
 
@@ -145,7 +145,7 @@ sudo apt-get upgrade
 sudo reboot           #System-Neustart durchführen
 ```
 
-### Synaptic installieren
+### **Synaptic installieren**
 
 1. Synaptic ist zur Verwaltung von Debian-Paketen gemacht, kann aber auch mit RPM-Paketen umgehen. Darum müssen wir das herunterladen.
 ```
@@ -167,12 +167,12 @@ Was ist Vagrant eigentlich?
 Ein Vagrant-file ist für die Automatisierung oder für die Reproduzierbarkeit. Somit kann man mit einer einfachen ausführung Virtuelle Maschienen erstellen lassen. Man kann nicht nur Virtuelle Maschienen erstellen sondern auch verwalten.
 
 
-## Software herunterladen & installieren
+## **Software herunterladen & installieren**
 
 1. Vagrant kann man unter dieser Internetseite herunterladen [Vagrant-Download](https://www.vagrantup.com/)
 2. Für die Installation muss man nichts beachten. Wenn man den Download abgeschlossen hat, kann man mit dem Erstellen der Virtuellen Maschienen anfangen.
 
-## Virtuelle Maschine erstellen
+## **Virtuelle Maschine erstellen**
 
 1. Damit wir ein sogennantes Vagrant-file erstellen können, müssen wir in ein gewünschtes Verzeichnis wechseln und dort einen Ordner erstellen. Nach dem erstellen des Ordners muss man auch gerade dort hin Navigieren.
 
@@ -197,19 +197,20 @@ vagrant ssh
 
 4. VM über GUI ausschalten.
 
-### Apache Webserver automatisiert aufsetzen
+### **Apache Webserver automatisiert aufsetzen**
 
 
 Visual Studio Code
 ======
 
-### Software herunterladen & installieren
+### **Software herunterladen & installieren**
 
 1. Damit man eine effiziente Entwicklungsumgebung aufbauen kann, brachut man eine Applikation, welche dafür sorgt, dass man alle lokalen Repositories an einem Ort verwalten kann. Eine Gute Lösung dafür ist Visual Studio code.
 
 2. Mit dem Folgenden Link kann man Visual Studio code herunterladen: [Visual Studio Code Download](https://code.visualstudio.com/)
 
-3. Damit das arbeiten leichter fällt, verwenden wir noch vier wichtige Erweiterungen:
+### **Erweiterungen hinzufügen**
+1. Damit das arbeiten leichter fällt, verwenden wir noch vier wichtige Erweiterungen:
 
 * Markdown All in One
 * Vagrant Extension
@@ -220,14 +221,25 @@ Diese erweiterungen kann man bei Visual Studio code an der Linken Seite finden..
 
 ![Erweiterungen bei Visual Studio Code](../Screenshot/Erweiterungen%20VSC.png)
 
-### Extensions installieren
+### **Einstellungen anpassen**
 
-### Einstellungen anpassen
+1. Damit nicht alle Daten beim Cloud Repository hinzugefügt werden muss man hier ein Paar ausnahmen setzten
+2. Hierzu ein Screenshot wie man zu den Einstellungen kommt:
 
-### Repository hinzufügen & pushen
+![Ausnahmen für Cloud-Repository](../Screenshot/Ausnahmen%20f%C3%BCr%20Cloud-Repository.png)
+
+3. Ich würde euch meine gezeigten Einstellungen empfehlen.
+
+### **Repository hinzufügen & pushen**
+
+1. Damit man die Ganzen Änderungen hochladen kann, muss man an der Linken Seite unter Source Control gehen. Eine Nachricht hinzufügen und dann commit sagen. Nach dem man die Bestätigung gegeben hat und die Daten hochgeladen wurden, muss man noch Synchronisieren.
+
+![Upload der Veränderungen](../Screenshot/Hochladen%20der%20Dateien.png)
 
 Quellenverzeichnis
 ======
+
+
 
 
 
