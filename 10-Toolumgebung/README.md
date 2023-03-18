@@ -236,8 +236,21 @@ Diese erweiterungen kann man bei Visual Studio code an der Linken Seite finden..
 
 ![Upload der Veränderungen](../Screenshot/Hochladen%20der%20Dateien.png)
 
-Quellenverzeichnis
+Wichtige Befehle
 ======
+
+| Befehl        | Beschreibung                                                    |
+|---------------|-----------------------------------------------------------------|
+| `git init`    | Erstellt ein neues, leeres Git-Repository im aktuellen Verzeichnis |
+| `git add`     | Fügt Änderungen der Arbeitskopie zum Staging-Bereich hinzu        |
+| `git commit`  | Speichert die Änderungen im Repository und erstellt eine Version |
+| `git clone`   | Erstellt eine lokale Kopie eines Remote-Repositories             |
+| `git pull`    | Lädt die neuesten Änderungen aus einem Remote-Repository herunter |
+| `git push`    | Überträgt lokale Änderungen an ein Remote-Repository             |
+| `git branch`  | Erstellt, löscht oder zeigt Branches im Repository an            |
+| `git merge`   | Führt zwei oder mehr Branches zusammen                           |
+| `git status`  | Zeigt den Status der Arbeitskopie und des Repositories an        |
+| `git log`     | Zeigt die Versionsgeschichte mit allen Commits an                |
 
 [&uarr; nach oben](https://github.com/Silvan-Mattig/M300-Services/tree/main/10-Toolumgebung#m300---10-toolumgebung)
 
