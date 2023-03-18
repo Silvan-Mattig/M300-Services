@@ -205,6 +205,21 @@ Visual Studio Code
 
 ### Software herunterladen & installieren
 
+1. Damit man eine effiziente Entwicklungsumgebung aufbauen kann, brachut man eine Applikation, welche dafür sorgt, dass man alle lokalen Repositories an einem Ort verwalten kann. Eine Gute Lösung dafür ist Visual Studio code.
+
+2. Mit dem Folgenden Link kann man Visual Studio code herunterladen: [Visual Studio Code Download](https://code.visualstudio.com/)
+
+3. Damit das arbeiten leichter fällt, verwenden wir noch vier wichtige Erweiterungen:
+
+* Markdown All in One
+* Vagrant Extension
+* vscode-pdf Extension
+* Auto Markdown TOC
+  
+Diese erweiterungen kann man bei Visual Studio code an der Linken Seite finden... 
+
+![Erweiterungen bei Visual Studio Code](../Screenshot/Erweiterungen%20VSC.png)
+
 ### Extensions installieren
 
 ### Einstellungen anpassen
