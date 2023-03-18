@@ -3,6 +3,40 @@ M300 - 20 Infrastruktur-Automatisierung
 
 Vagrant
 ===
+1. Zunächst muss ein Verzeichnis für die virtuelle Maschine erstellt werden. In diesem Beispiel wird Ubuntu 2204Server verwendet. Anschließend navigieren Sie in dieses Verzeichnis, entweder in der Powershell oder unter Linux in der Bash.
+
+2. Mithilfe des folgenden Befehls können Sie ein Vagrantfile von der gewünschten Vagrant Box erstellen. Vagrant Boxen sind vordefinierte virtuelle Maschinen. In diesem Fall wird die Vagrant Box "ubuntu/xenial64" verwendet. Sie können diese Box auch in der Vagrant Cloud finden.
+```
+vagrant init ubuntu/xenial64
+```
+3. Verwenden Sie "vagrant up", um den Erstellungsprozess zu starten. Die Box oder das Image wird dann aus dem Internet heruntergeladen (falls es noch nicht lokal verfügbar ist) und eine virtuelle Maschine wird erstellt. Dabei werden alle im Vagrantfile festgelegten Konfigurationen berücksichtigt.
+```
+vagrant up --provider virtualbox
+```
+Mit dem Parameter "--provider virtualbox" können Sie festlegen, dass Vagrant Virtualbox als Provider verwendet. Vagrant unterstützt auch andere Provider wie beispielsweise Vmware oder Hyper-V.
+
+4. Sobald die virtuelle Maschine erstellt ist, können Sie sich mit dem Befehl "vagrant ssh" auf sie verbinden.
+   
+```
+vagrant ssh
+```
+
+5. Hier finden Sie noch die wichtigsten Befehle für Vagrant, einschließlich Anweisungen zum Anhalten oder Löschen der virtuellen Maschine.
+
+
+| Befehl | Beschreibung |
+| ------ | ------------ |
+| vagrant up | Startet und provisioniert eine neue virtuelle Maschine |
+| vagrant ssh | Verbindet sich per SSH zur laufenden VM |
+| vagrant halt | Stoppt die laufende VM |
+| vagrant destroy | Löscht die VM und alle zugehörigen Ressourcen |
+| vagrant status | Zeigt den Status aller VMs im aktuellen Verzeichnis an |
+| vagrant init | Initialisiert ein neues Vagrant-Projekt im Verzeichnis |
+| vagrant reload | Neustartet die VM und lädt die Vagrant-Konfiguration |
+| vagrant suspend | Pausiert die laufende VM |
+| vagrant resume | Nimmt eine pausierte VM wieder auf |
+| vagrant provision | Führt eine erneute Provisionierung auf der VM durch |
+
 
 Packer
 ===
