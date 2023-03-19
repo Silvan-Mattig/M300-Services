@@ -167,7 +167,10 @@ Vagrant.configure("2") do |config|
 ```
 
 
-LB2
+Netzwerkplan
 ===
+
+![Netzwerkplan](../Screenshot/Netzwerkplan.png)
+
 
 
