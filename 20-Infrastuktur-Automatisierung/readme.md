@@ -170,6 +170,8 @@ Vagrant.configure("2") do |config|
 Netzwerkplan
 ===
 
+Auf diesem Netzwerkplan wird angezeigt, wo das Lokale Netzwerk und wo die VirtualBox ist. Das NAT verbindet diese beiden Netzwerke zusammen.
+
 ![Netzwerkplan](../Screenshot/Netzwerkplan.png)
 
 
