@@ -126,6 +126,19 @@ Folgen Sie diesen Schritten, um AWS für Vagrant vorzubereiten:
 Wählen Sie "RSA" und ".pem" und laden Sie die Datei mit dem privaten Schlüssel herunter.
 Achten Sie darauf, den Schlüssel nicht auf Github hochzuladen.
 
+Hierzu noch die Bildanleitung für die Grafische Oberfläche:
+
+![Alt text](../Screenshot/AWS%20Benutzer%20zur%20Gruppe.png)
+
+![Alt text](../Screenshot/AWS%20Benutzer.png)
+
+![Alt text](../Screenshot/AWS%20Benutzererstellung%20abschliessen.png)
+
+![Alt text](../Screenshot/AWS%20Benutzererstellung.png)
+
+![Alt text](../Screenshot/AWS%20Schl%C3%BCsselpaar.png)
+
+
 ### **Konfiguration des Vagrantfiles**
 
 Bearbeiten Sie das Vagrantfile und geben Sie die Zugriffsschlüssel, das .pem-Zertifikat und weitere Angaben zum Rechenzentrum-Standort und zum Instanztyp an:
