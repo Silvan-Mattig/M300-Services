@@ -156,6 +156,10 @@ Bisher gingen alle Änderungen im Dateisystem verloren, wenn der Docker-Containe
 
 Diese Optionen erlauben es, Daten auch über das Löschen eines Containers hinaus zu behalten und erleichtern die Verwaltung von Daten in Docker-Containern.
 
+## Volume - Verzeichnis ##
+
+Ein Volume ist ein spezielles Verzeichnis auf dem Hostsystem, in dem ein oder mehrere Docker-Container ihre Daten speichern können. Volumes bieten verschiedene nützliche Funktionen für die Verwaltung von persistenter oder gemeinsam genutzter Daten:
+
 Image-Bereitstellung
 ===
 
