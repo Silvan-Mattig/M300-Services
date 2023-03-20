@@ -104,15 +104,37 @@ Docker Architecktur
 
 ## Container ## 
 
-* Container sind die ausgeführten Images
+* Container sind die ausgeführten Images.
 
-* Ein Image kann beliebig oft als Container ausgeführt werden
+* Ein Image kann beliebig oft als Container ausgeführt werden.
   
 
 ## Docker Registry ## 
 
-* In Docker Registries werden Images abgelegt und verteilt
+* In Docker Registries werden Images abgelegt und verteilt.
 
+Dockerfile
+===
+
+Ein Dockerfile ist ein Textdokument, das eine Abfolge von Anweisungen enthält, mit denen ein Docker-Image erstellt werden kann. Um ein Dockerfile zu erstellen, kann man zuerst ein neues Verzeichnis anlegen und darin eine Datei mit dem Namen "Dockerfile" erstellen.
+
+Anschliessend kann das Image wie folgt gebuildet werden:
+```
+    $ docker build -t mysql .
+```
+Starten:
+```
+    $ docker run --rm -d --name mysql mysql
+```
+Funktionsfähigkeit überprüfen:
+```
+    $ docker exec -it mysql bash
+```
+Überprüfung im Container:
+```
+    $ ps -ef
+    $ netstat -tulpen
+```
 
 Netzwerk-Anbindung
 ===
