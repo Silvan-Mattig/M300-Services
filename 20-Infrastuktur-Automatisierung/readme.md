@@ -4,6 +4,9 @@ M300 - 20 Infrastruktur-Automatisierung
 Inhaltsverzeichnis
 ===
 [Vagrant](https://github.com/Silvan-Mattig/M300-Services/tree/main/20-Infrastuktur-Automatisierung#vagrant)
+[Packer](https://github.com/Silvan-Mattig/M300-Services/tree/main/20-Infrastuktur-Automatisierung#packer)
+[AWS](https://github.com/Silvan-Mattig/M300-Services/tree/main/20-Infrastuktur-Automatisierung#aws)
+[Netzwerkplan](https://github.com/Silvan-Mattig/M300-Services/tree/main/20-Infrastuktur-Automatisierung#netzwerkplan)
 
 
 Vagrant
@@ -14,13 +17,13 @@ Vagrant
 ```
 vagrant init ubuntu/xenial64
 ```
-3. Verwenden Sie "vagrant up", um den Erstellungsprozess zu starten. Die Box oder das Image wird dann aus dem Internet heruntergeladen (falls es noch nicht lokal verfügbar ist) und eine virtuelle Maschine wird erstellt. Dabei werden alle im Vagrantfile festgelegten Konfigurationen berücksichtigt.
+1. Verwenden Sie "vagrant up", um den Erstellungsprozess zu starten. Die Box oder das Image wird dann aus dem Internet heruntergeladen (falls es noch nicht lokal verfügbar ist) und eine virtuelle Maschine wird erstellt. Dabei werden alle im Vagrantfile festgelegten Konfigurationen berücksichtigt.
 ```
 vagrant up --provider virtualbox
 ```
 Mit dem Parameter "--provider virtualbox" können Sie festlegen, dass Vagrant Virtualbox als Provider verwendet. Vagrant unterstützt auch andere Provider wie beispielsweise Vmware oder Hyper-V.
 
-4. Sobald die virtuelle Maschine erstellt ist, können Sie sich mit dem Befehl "vagrant ssh" auf sie verbinden.
+1. Sobald die virtuelle Maschine erstellt ist, können Sie sich mit dem Befehl "vagrant ssh" auf sie verbinden.
    
 ```
 vagrant ssh
