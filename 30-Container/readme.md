@@ -162,22 +162,40 @@ Ein Volume ist ein spezielles Verzeichnis auf dem Hostsystem, in dem ein oder me
 
 ### Wie erstellt man ein neues Volume /data Verzeichnis? ###
 
-Man muss den Folgenden Behfel einggeben, dass ein neues Docker Volume angelegt wird.
+Man muss den Folgenden Befehl einggeben, dass ein neues Docker Volume angelegt wird.
 
 ```
 docker volume create data
 ```
 
-Mit dem Folgenden Behfel kann man Überprüfen, ob der Behfel funktioniert hat. Somit werden alle verfügbaren Docker-Volumes aufgelistet.
+Mit dem Folgenden Befehl kann man Überprüfen, ob der Befehl funktioniert hat. Somit werden alle verfügbaren Docker-Volumes aufgelistet.
 ```
 docker volume ls
 ```
 
-Damit man das Volume verwenden kann, muss man die folgenden Zeilen im Docker-Compose hinzufügen.
+Damit man das Volume verwenden kann, muss man die folgenden Zeilen im Docker-Compose hinzufügen. Smoit wird "my-data" durch den gewünschten Namen des Volumes ersetzt.
 ```
 volumes:
   my-data:
 ```
+
+## Datencontainer ##
+
+Wie starten man einen Container? Und wie kommen andere Personen darauf?
+
+Um den Container zu starten, muss man den folgenden Befehl eingeben:
+```
+docker run
+```
+Um auf ein Container zugreifen zukönnen, muss man folgenden Behfel eingeben:
+```
+--volumes-from
+```
+
+## Named Volumes ##
+
+Docker Volume ist seit Version 1.9 ein wichtiger Befehl, zur Verwaltung von Volumes auf einem Docker Host. Mit dem Befehl kann man ganz viele Sachen verwalten. Alle diese hier aufzuzählen macht aber keinen Sinn.
+    
 
 Image-Bereitstellung
 ===
