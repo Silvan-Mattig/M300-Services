@@ -35,9 +35,7 @@ Docker
 
 # Anleitung zur Installation von Docker Desktop auf Windows und Aktivierung von WSL2
 
-1. Laden Sie Docker Desktop für Windows herunter.
-
-Gehen Sie zu https://www.docker.com/products/docker-desktop und klicken Sie auf die Schaltfläche "Download for Windows" oder direkt auf den folgenden Link: https://desktop.docker.com/win/stable/DockerDesktopInstaller.exe
+1. Laden Sie Docker Desktop für Windows herunter. Dazu kann man direk auf diese Webseite gehen.[Docker-Desktop](https://www.docker.com/products/docker-desktop/)
 
 2. Führen Sie den Installationsassistenten aus.
 
@@ -47,11 +45,9 @@ Gehen Sie zu https://www.docker.com/products/docker-desktop und klicken Sie auf 
 
 Nach Abschluss der Installation startet Docker Desktop automatisch. Möglicherweise müssen Sie jedoch den Computer neu starten, um Docker Desktop ordnungsgemäß zu starten.
 
-Wenn Docker Desktop ausgeführt wird, wird das Docker-Symbol in der Taskleiste angezeigt. Klicken Sie darauf und wählen Sie "Settings" aus dem Kontextmenü.
+In den Einstellungen sollten man die Option "Use the WSL 2 based engine" auswählen. Wenn Sie dies tun, wird Docker Desktop WSL2 als Engine verwenden.
 
-In den Einstellungen sollten Sie die Option "Use the WSL 2 based engine" auswählen. Wenn Sie dies tun, wird Docker Desktop WSL2 als Engine verwenden.
-
-4. Aktivieren Sie WSL2.
+1. Aktivieren Sie WSL2.
 
 Öffnen Sie ein PowerShell-Fenster als Administrator und führen Sie den folgenden Befehl aus, um WSL2 als Standardversion von WSL zu aktivieren:
 
