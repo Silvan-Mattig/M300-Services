@@ -1,6 +1,11 @@
 M300 - 20 Infrastruktur-Automatisierung
 ===
 
+Inhaltsverzeichnis
+===
+[Vagrant](https://github.com/Silvan-Mattig/M300-Services/tree/main/20-Infrastuktur-Automatisierung#vagrant)
+
+
 Vagrant
 ===
 1. Zunächst muss ein Verzeichnis für die virtuelle Maschine erstellt werden. In diesem Beispiel wird Ubuntu 2204Server verwendet. Anschließend navigieren Sie in dieses Verzeichnis, entweder in der Powershell oder unter Linux in der Bash.
