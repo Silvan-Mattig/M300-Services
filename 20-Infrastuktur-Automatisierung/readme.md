@@ -4,8 +4,11 @@ M300 - 20 Infrastruktur-Automatisierung
 Inhaltsverzeichnis
 ===
 [Vagrant](https://github.com/Silvan-Mattig/M300-Services/tree/main/20-Infrastuktur-Automatisierung#vagrant)
+
 [Packer](https://github.com/Silvan-Mattig/M300-Services/tree/main/20-Infrastuktur-Automatisierung#packer)
+
 [AWS](https://github.com/Silvan-Mattig/M300-Services/tree/main/20-Infrastuktur-Automatisierung#aws)
+
 [Netzwerkplan](https://github.com/Silvan-Mattig/M300-Services/tree/main/20-Infrastuktur-Automatisierung#netzwerkplan)
 
 
