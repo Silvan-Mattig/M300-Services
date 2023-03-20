@@ -252,8 +252,7 @@ Diese erweiterungen kann man bei Visual Studio code an der Linken Seite finden..
 
 ![Upload der Veränderungen](../Screenshot/Hochladen%20der%20Dateien.png)
 
-Wichtige Befehle
-======
+
 
 Automatischer Web-Server | MyVagrant Folder
 ===
@@ -279,6 +278,9 @@ Sobald die VM erstellt wurde kann man unter der URL http://localhost:8080 die ap
 ```
 http://localhost:8080
 ```
+
+Wichtige Befehle
+======
 
 | Befehl        | Beschreibung                                                    |
 |---------------|-----------------------------------------------------------------|
