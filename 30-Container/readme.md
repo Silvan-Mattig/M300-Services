@@ -35,11 +35,17 @@ Docker
 
 # Anleitung zur Installation von Docker Desktop auf Windows und Aktivierung von WSL2
 
-1. Laden Sie Docker Desktop für Windows herunter. Dazu kann man direk auf diese Webseite gehen. [Docker-Desktop](https://www.docker.com/products/docker-desktop/)
+1. Laden Sie Docker Desktop für Windows herunter. 
 
-2. Führen Sie den Installationsassistenten aus. Öffnen Sie die heruntergeladene Datei "DockerDesktopInstaller.exe" und folgen Sie den Anweisungen des Installationsassistenten.
+Dazu kann man direk auf diese Webseite gehen. [Docker-Desktop](https://www.docker.com/products/docker-desktop/)
 
-3. Konfigurieren Sie Docker Desktop. Nach Abschluss der Installation startet Docker Desktop automatisch. Möglicherweise müssen Sie jedoch den Computer neu starten, um Docker Desktop ordnungsgemäß zu starten. In den Einstellungen sollten man die Option "Use the WSL 2 based engine" auswählen. Wenn Sie dies tun, wird Docker Desktop WSL2 als Engine verwenden.
+2. Führen Sie den Installationsassistenten aus. 
+
+Öffnen Sie die heruntergeladene Datei "DockerDesktopInstaller.exe" und folgen Sie den Anweisungen des Installationsassistenten.
+
+3. Konfigurieren Sie Docker Desktop. 
+
+Nach Abschluss der Installation startet Docker Desktop automatisch. Möglicherweise müssen Sie jedoch den Computer neu starten, um Docker Desktop ordnungsgemäß zu starten. In den Einstellungen sollten man die Option "Use the WSL 2 based engine" auswählen. Wenn Sie dies tun, wird Docker Desktop WSL2 als Engine verwenden.
 
 4. Aktivieren Sie WSL2.
 
@@ -49,11 +55,15 @@ Docker
 wsl --set-default-version 2
 ```
 
-Sie werden möglicherweise aufgefordert, eine bestimmte WSL-Distribution als Standard festzulegen. Wählen Sie Ihre bevorzugte Distribution aus der Liste aus und setzen Sie sie als Standard.
+Wenn man den Befehl ausgeführt hat, sollte man die folgende Meldung bekommen:
+![WSL2 aktivieren](../Screenshot/WSL2%20Command.png)
 
 5. Installieren Sie eine Linux-Distribution.
 
-Da Docker Desktop WSL2 als Engine verwendet, benötigen Sie eine Linux-Distribution, die auf Ihrem Computer ausgeführt werden kann. Öffnen Sie den Microsoft Store und suchen Sie nach "Linux". Wählen Sie eine beliebige Linux-Distribution aus und installieren Sie sie.
+Da Docker Desktop WSL2 als Engine verwendet, benötigen Sie eine Linux-Distribution, die auf Ihrem Computer ausgeführt werden kann. Ich empfehle Ubuntu 22.04.2 LTS:
+
+![Ubuntu 22.04.2 LTS](../Screenshot/Ubuntu%2022.04.2%20LTS.png)
+
 
 6. Überprüfen Sie die Installation.
 
@@ -61,12 +71,18 @@ Da Docker Desktop WSL2 als Engine verwendet, benötigen Sie eine Linux-Distribut
 ```
 docker run hello-world
 ```
+Wenn alles funktioniert hat, sollte es folgendermassen aussehen:
+![Test Docker](../Screenshot/Test%20Docker.png)
 
 
-Wenn alles ordnungsgemäß funktioniert, sollten Sie eine Nachricht erhalten, die besagt, dass Docker erfolgreich ausgeführt wurde.
 
-Das war's! Sie haben Docker Desktop erfolgreich auf Windows installiert und WSL2 aktiviert.
+Somit hat man Docker Desktop erfolgreich auf Windows installiert und WSL2 aktiviert.
 
+Docker Architecktur
+===
+
+
+![Architecktur Docker](../Screenshot/Architecktur%20Docker.png)
 
 Netzwerk-Anbindung
 ===
