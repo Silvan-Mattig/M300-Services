@@ -158,7 +158,26 @@ Diese Optionen erlauben es, Daten auch über das Löschen eines Containers hinau
 
 ## Volume - Verzeichnis ##
 
-Ein Volume ist ein spezielles Verzeichnis auf dem Hostsystem, in dem ein oder mehrere Docker-Container ihre Daten speichern können. Volumes bieten verschiedene nützliche Funktionen für die Verwaltung von persistenter oder gemeinsam genutzter Daten:
+Ein Volume ist ein spezielles Verzeichnis auf dem Hostsystem, in dem ein oder mehrere Docker-Container ihre Daten speichern können. Volumes bieten verschiedene nützliche Funktionen für die Verwaltung von persistenter oder gemeinsam genutzter Daten.
+
+### Wie erstellt man ein neues Volume /data Verzeichnis? ###
+
+Man muss den Folgenden Behfel einggeben, dass ein neues Docker Volume angelegt wird.
+
+```
+docker volume create data
+```
+
+Mit dem Folgenden Behfel kann man Überprüfen, ob der Behfel funktioniert hat. Somit werden alle verfügbaren Docker-Volumes aufgelistet.
+```
+docker volume ls
+```
+
+Damit man das Volume verwenden kann, muss man die folgenden Zeilen im Docker-Compose hinzufügen.
+```
+volumes:
+  my-data:
+```
 
 Image-Bereitstellung
 ===
