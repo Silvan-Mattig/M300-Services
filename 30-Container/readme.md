@@ -84,6 +84,36 @@ Docker Architecktur
 
 ![Architecktur Docker](../Screenshot/Architecktur%20Docker.png)
 
+## Docker Deamon ## 
+
+* Erstellen, Ausführen und Überwachen der Container
+
+* Bauen und Speichern von Images
+
+## Docker Client ##
+
+* Docker wird über die Kommandozeile (CLI) mittels des Docker Clients bedient
+
+* Kommuniziert per HTTP REST mit dem Docker Daemon
+
+## Images ##
+
+* Images sind gebuildete Umgebungen welche als Container gestartet werden können
+
+* Images sind nicht veränderbar, sondern können nur neu gebuildet werden.
+
+## Container ## 
+
+* Container sind die ausgeführten Images
+
+* Ein Image kann beliebig oft als Container ausgeführt werden
+  
+
+## Docker Registry ## 
+
+* In Docker Registries werden Images abgelegt und verteilt
+
+
 Netzwerk-Anbindung
 ===
 
