@@ -258,7 +258,17 @@ docker pull ubuntu
 
 ### Export/Import von Container und Images ###
 
+Damit man Images zwischen zwei Hots hin und her verschieben kann, braucht man die Befehle docker export und docker import. Damit man Verzeichnisse hin und her kopieren kann, verwenden wir docker save und docker load.
+```
+docker export
+```
 
+```
+docker import
+```
+
+
+Um eigene 
 
 ### Private Registry ###
 
