@@ -4,6 +4,13 @@ M300 - 30 Container
 Inhaltsverzeichnis
 ===
 
+[Container](https://github.com/Silvan-Mattig/M300-Services/tree/main/30-Container#container)
+
+[Docker](https://github.com/Silvan-Mattig/M300-Services/tree/main/30-Container#docker)
+
+[]()
+
+
 Container
 ===
 Ein Container ist ein Konzept der Informatik, das hilfreich ist, um Anwendungen in einer Umgebung auszuführen, die isoliert und unabhängig von anderen Anwendungen und dem Betriebssystem des Computers ist.
@@ -13,7 +20,7 @@ Ein Vorteil von Containern ist, dass sie portabel sind und auf verschiedenen Bet
 Docker
 ===
 
-### Wichtige Befehle für Docker ###
+## Wichtige Befehle für Docker ##
 
 | Befehl | Beschreibung |
 | --- | --- |
@@ -33,7 +40,7 @@ Docker
 | `docker push` | Lädt ein Docker-Image auf Docker Hub oder eine andere Docker-Registry hoch |
 | `docker pull` | Lädt ein Docker-Image von Docker Hub oder einer anderen Docker-Registry herunter |
 
-# Anleitung zur Installation von Docker Desktop auf Windows und Aktivierung von WSL2
+# Installation Docker Desktop und Aktivierung von WSL2 #
 
 1. Laden Sie Docker Desktop für Windows herunter. 
 
@@ -80,7 +87,6 @@ Somit hat man Docker Desktop erfolgreich auf Windows installiert und WSL2 aktivi
 
 Docker Architecktur
 ===
-
 
 ![Architecktur Docker](../Screenshot/Architecktur%20Docker.png)
 
@@ -160,7 +166,7 @@ Diese Optionen erlauben es, Daten auch über das Löschen eines Containers hinau
 
 Ein Volume ist ein spezielles Verzeichnis auf dem Hostsystem, in dem ein oder mehrere Docker-Container ihre Daten speichern können. Volumes bieten verschiedene nützliche Funktionen für die Verwaltung von persistenter oder gemeinsam genutzter Daten.
 
-### Wie erstellt man ein neues Volume /data Verzeichnis? ###
+## Wie erstellt man ein neues Volume /data Verzeichnis? ##
 
 Man muss den Folgenden Befehl einggeben, dass ein neues Docker Volume angelegt wird.
 
@@ -202,7 +208,7 @@ Image-Bereitstellung
 
 Es existieren zahlreiche Optionen, um Images bereitzustellen. Man kann sie durch das Erstellen von Dockerfiles erstellen, von einer Registry mit "docker pull" herunterladen oder mithilfe von "docker load" aus einer Archivdatei installieren.
 
-### Namensgebung für Images ###
+## Namensgebung für Images ##
 
 Images bestehen aus einem Namen und einer Version, wobei bei fehlender Angabe automatisch ":latest" hinzugefügt wird. Um Images bereitzustellen, sind präzise und beschreibende Namen und Tags von entscheidender Bedeutung. Die Namen und Tags werden entweder beim Bauen der Images oder durch den Befehl "docker tag" festgelegt.
 
@@ -216,17 +222,17 @@ Bei den Tag-Namen muss man auf ein Paar Sachen achten:
 
 Bei der Entwicklung eines Workflows ist es äußerst wichtig, sinnvolle Namen für Repositories und Tags zu verwenden. Docker hat nur wenige Einschränkungen bezüglich der Namensgebung und erlaubt jederzeit die Erstellung oder Löschung von Namen. Es obliegt also dem Entwicklungsteam, ein angemessenes Namensschema zu entwerfen und anzuwenden
 
-### Warnung vor dem latest-Tag ###
+## Warnung vor dem latest-Tag ##
 
 Wenn bei einem "docker run" oder "docker pull" Befehl kein spezifischer Tag angegeben wird, verwendet Docker standardmäßig das Image, das mit "latest" gekennzeichnet ist. Wenn kein solches Image vorhanden ist, wird eine Fehlermeldung ausgegeben.
 
-### Docker Hub ###
+# Docker Hub #
 
 Ein eigenes Images bereitzustellen ist am einfachsten, wenn man Dockers Hub verwendet.
 
 Das Hub ist soweit kostenlos, man kann aber auch für Repositories von privaten Personen zahlen.
 
-### Docker Hub einrichten ###
+## Docker Hub einrichten ##
 
 1. Zuerst muss man achten, dass man einen Docker Hub Account hat.
 2. Image erstellen
@@ -243,7 +249,7 @@ docker push username/mysql
 
 Dannach muss das Image noch beschrieben werden.
 
-### Weitere Befehle ###
+## Weitere Befehle ##
 
 Nach einem Image kann man suchen mit folgendem Befehl:
 
@@ -256,7 +262,7 @@ Um ein Image herunterzuladen, muss man den befehl pull verwenden:
 docker pull ubuntu
 ```
 
-### Export/Import von Container und Images ###
+# Export/Import von Container und Images #
 
 Damit man Images zwischen zwei Hots hin und her verschieben kann, braucht man die Befehle docker export und docker import. Damit man Verzeichnisse hin und her kopieren kann, verwenden wir docker save und docker load.
 ```
@@ -280,11 +286,11 @@ docker load
 ```
 
 
-### TAR-Format ###
+## TAR-Format ##
 
 Das TAR-Format dient der Archivierung und Komprimierung von Dateien und Verzeichnissen und hat seinen Ursprung in der Sicherung von Daten auf Magnetbändern. Heutzutage wird es oft verwendet, um Dateien in einer einzelnen, komprimierten Datei für die Übertragung oder Speicherung zu archivieren. Um die Dateigröße weiter zu reduzieren, können TAR-Dateien mit verschiedenen Komprimierungsverfahren wie Gzip, bzip2 oder XZ komprimiert werden. Im Bereich von Docker-Images werden TAR-Dateien häufig als Archivdateien verwendet.
 
-### Private Registry ###
+# Private Registry #
 
 Es gibt verschiedene Möglichkeiten, Images neben dem Docker Hub bereitzustellen, aber die manuelle Erstellung oder der Export/Import von Images sind suboptimale Optionen. Das Erstellen von Images aus Dockerfiles auf jedem Host ist langsam und kann zu unterschiedlichen Images führen, während das Exportieren und Importieren von Images knifflig und fehleranfällig sein kann. Stattdessen wird empfohlen, eine andere Registry zu verwenden, die selbst gehostet oder von einem anderen Unternehmen betrieben wird.
 
