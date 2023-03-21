@@ -48,6 +48,8 @@ Docker
 
 # Installation Docker Desktop und Aktivierung von WSL2 #
 
+[&uarr; nach oben](https://github.com/Silvan-Mattig/M300-Services/tree/main/30-Container#m300---30-container)
+
 1. Laden Sie Docker Desktop für Windows herunter. 
 
 Dazu kann man direk auf diese Webseite gehen. [Docker-Desktop](https://www.docker.com/products/docker-desktop/)
@@ -128,6 +130,8 @@ Docker Architecktur
 Dockerfile
 ===
 
+[&uarr; nach oben](https://github.com/Silvan-Mattig/M300-Services/tree/main/30-Container#m300---30-container)
+
 Ein Dockerfile ist ein Textdokument, das eine Abfolge von Anweisungen enthält, mit denen ein Docker-Image erstellt werden kann. Um ein Dockerfile zu erstellen, kann man zuerst ein neues Verzeichnis anlegen und darin eine Datei mit dem Namen "Dockerfile" erstellen.
 
 Anschliessend kann das Image wie folgt gebuildet werden:
@@ -151,12 +155,16 @@ Funktionsfähigkeit überprüfen:
 Netzwerk-Anbindung
 ===
 
+[&uarr; nach oben](https://github.com/Silvan-Mattig/M300-Services/tree/main/30-Container#m300---30-container)
+
 Das wichtigste bei den Netzwerk Anbindungen ist, dass man weiss wie man Aussenstehenden Personen zugriff gebenkann. Das ganze funktioniert mit Ports. Dafür braucht man folgenden Behfel: -p oder -P.
 
 Um eine Verbindung zu einem Docker-Container herzustellen, der eine Anwendung ausführt, die auf einen bestimmten Port hört, muss der Port an den Host oder das Netzwerk weitergeleitet werden. Dazu kann man im Dockerfile die Ports, die die Anwendung nutzt, über die Anweisung "EXPOSE" eintragen. Dies ermöglicht es, dass andere Container oder Anwendungen über das Netzwerk auf den Container zugreifen und mit der Anwendung kommunizieren können.
 
 Volumes
 ===
+
+[&uarr; nach oben](https://github.com/Silvan-Mattig/M300-Services/tree/main/30-Container#m300---30-container)
 
 Bisher gingen alle Änderungen im Dateisystem verloren, wenn der Docker-Container gelöscht wurde. Um Daten auch über das Löschen des Containers hinaus zu erhalten, bietet Docker verschiedene Optionen:
 
@@ -211,6 +219,8 @@ Docker Volume ist seit Version 1.9 ein wichtiger Befehl, zur Verwaltung von Volu
 
 Image-Bereitstellung
 ===
+
+[&uarr; nach oben](https://github.com/Silvan-Mattig/M300-Services/tree/main/30-Container#m300---30-container)
 
 Es existieren zahlreiche Optionen, um Images bereitzustellen. Man kann sie durch das Erstellen von Dockerfiles erstellen, von einer Registry mit "docker pull" herunterladen oder mithilfe von "docker load" aus einer Archivdatei installieren.
 
@@ -270,6 +280,8 @@ docker pull ubuntu
 
 # Export/Import von Container und Images #
 
+[&uarr; nach oben](https://github.com/Silvan-Mattig/M300-Services/tree/main/30-Container#m300---30-container)
+
 Damit man Images zwischen zwei Hots hin und her verschieben kann, braucht man die Befehle docker export und docker import. Damit man Verzeichnisse hin und her kopieren kann, verwenden wir docker save und docker load.
 ```
 docker export
@@ -298,10 +310,16 @@ Das TAR-Format dient der Archivierung und Komprimierung von Dateien und Verzeich
 
 # Private Registry #
 
+[&uarr; nach oben](https://github.com/Silvan-Mattig/M300-Services/tree/main/30-Container#m300---30-container)
+
 Es gibt verschiedene Möglichkeiten, Images neben dem Docker Hub bereitzustellen, aber die manuelle Erstellung oder der Export/Import von Images sind suboptimale Optionen. Das Erstellen von Images aus Dockerfiles auf jedem Host ist langsam und kann zu unterschiedlichen Images führen, während das Exportieren und Importieren von Images knifflig und fehleranfällig sein kann. Stattdessen wird empfohlen, eine andere Registry zu verwenden, die selbst gehostet oder von einem anderen Unternehmen betrieben wird.
 
 LB3
 ===
+
+[&uarr; nach oben](https://github.com/Silvan-Mattig/M300-Services/tree/main/30-Container#m300---30-container)
+
+Test für Link nachoben
 
 
 [&uarr; nach oben](https://github.com/Silvan-Mattig/M300-Services/tree/main/30-Container#m300---30-container)
