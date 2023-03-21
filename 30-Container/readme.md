@@ -268,7 +268,21 @@ docker import
 ```
 
 
-Um eigene 
+Um seine eigenen Images sehen zu können, muss man folgenden Befehl ausführen:
+
+```
+/vagrant/mysql$ docker images
+```
+Wie kann ich mein Images wiederherstellen?
+
+```
+docker load
+```
+
+
+### TAR-Format ###
+
+Das TAR-Format dient der Archivierung und Komprimierung von Dateien und Verzeichnissen und hat seinen Ursprung in der Sicherung von Daten auf Magnetbändern. Heutzutage wird es oft verwendet, um Dateien in einer einzelnen, komprimierten Datei für die Übertragung oder Speicherung zu archivieren. Um die Dateigröße weiter zu reduzieren, können TAR-Dateien mit verschiedenen Komprimierungsverfahren wie Gzip, bzip2 oder XZ komprimiert werden. Im Bereich von Docker-Images werden TAR-Dateien häufig als Archivdateien verwendet.
 
 ### Private Registry ###
 
