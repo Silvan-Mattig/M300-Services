@@ -200,9 +200,65 @@ Docker Volume ist seit Version 1.9 ein wichtiger Befehl, zur Verwaltung von Volu
 Image-Bereitstellung
 ===
 
+Es existieren zahlreiche Optionen, um Images bereitzustellen. Man kann sie durch das Erstellen von Dockerfiles erstellen, von einer Registry mit "docker pull" herunterladen oder mithilfe von "docker load" aus einer Archivdatei installieren.
+
+### Namensgebung für Images ###
+
+Images bestehen aus einem Namen und einer Version, wobei bei fehlender Angabe automatisch ":latest" hinzugefügt wird. Um Images bereitzustellen, sind präzise und beschreibende Namen und Tags von entscheidender Bedeutung. Die Namen und Tags werden entweder beim Bauen der Images oder durch den Befehl "docker tag" festgelegt.
+
+Bei den Tag-Namen muss man auf ein Paar Sachen achten:
+
+* Gross- und Kleinbuchstaben
+* Zahlen
+* Symbolen . und -
+* nicht länger als 128 Zeichen
+* erstes Zeichen kein . oder -
+
+Bei der Entwicklung eines Workflows ist es äußerst wichtig, sinnvolle Namen für Repositories und Tags zu verwenden. Docker hat nur wenige Einschränkungen bezüglich der Namensgebung und erlaubt jederzeit die Erstellung oder Löschung von Namen. Es obliegt also dem Entwicklungsteam, ein angemessenes Namensschema zu entwerfen und anzuwenden
+
+### Warnung vor dem latest-Tag ###
+
+Wenn bei einem "docker run" oder "docker pull" Befehl kein spezifischer Tag angegeben wird, verwendet Docker standardmäßig das Image, das mit "latest" gekennzeichnet ist. Wenn kein solches Image vorhanden ist, wird eine Fehlermeldung ausgegeben.
+
 ### Docker Hub ###
 
+Ein eigenes Images bereitzustellen ist am einfachsten, wenn man Dockers Hub verwendet.
+
+Das Hub ist soweit kostenlos, man kann aber auch für Repositories von privaten Personen zahlen.
+
+### Docker Hub einrichten ###
+
+1. Zuerst muss man achten, dass man einen Docker Hub Account hat.
+2. Image erstellen
+
+```
+docker tag mysql username/mysql
+```
+
+3. Um das Image hochzuladen, muss man den Befehl push mit verwenden.
+
+```
+docker push username/mysql
+```
+
+Dannach muss das Image noch beschrieben werden.
+
+### Weitere Befehle ###
+
+Nach einem Image kann man suchen mit folgendem Befehl:
+
+```
+docker search mysql
+```
+Um ein Image herunterzuladen, muss man den befehl pull verwenden:
+
+```
+docker pull ubuntu
+```
+
 ### Export/Import von Container und Images ###
+
+
 
 ### Private Registry ###
 
