@@ -4,7 +4,11 @@ M300 - 35 Container-Sicherheit
 Inhaltsverzeichnis
 ===
 
-[Protokollieren & Überwachen](https://gitlab.com/ch-tbz-it/Stud/m300/M300/-/tree/master/35-Sicherheit#01-protokollieren-%C3%BCberwachen) 
+[Protokollieren & Überwachen](https://github.com/Silvan-Mattig/M300-Services/tree/main/35%20Container-Sicherheit#protokollieren--%C3%BCberwachen)
+
+[Container sichern & beschränken](https://github.com/Silvan-Mattig/M300-Services/tree/main/35%20Container-Sicherheit#container-sichern--beschr%C3%A4nken)
+
+[Kontinuierliche Integration](https://github.com/Silvan-Mattig/M300-Services/tree/main/35%20Container-Sicherheit#kontinuierliche-integration)
 
 Protokollieren & Überwachen
 ===
