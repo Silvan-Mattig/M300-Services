@@ -78,6 +78,9 @@ Container sichern & beschränken
 ## Berechtigungs-Verteilung ##
 
 
+## Container absichern ## 
+
+## Weitere Sicherheitstipps ## 
 
 Kontinuierliche Integration
 ===
