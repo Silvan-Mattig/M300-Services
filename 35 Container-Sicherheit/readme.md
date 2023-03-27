@@ -49,7 +49,10 @@ Diese Liste ist nicht vollständig und es gibt noch weitere Logging-Methoden, di
 | `$ docker logs streamtest \| wc -l`   | Zählt die Anzahl der Zeilen in den Logs des Containers `streamtest`.                                                                                                              |
 | `$ docker rm streamtest`              | Entfernt den Container `streamtest`.                                                                                                                                                |
 
+Protokollierung System-Log des Hosts:
 
+    $ docker run -d --log-driver=syslog ubuntu bash -c 'i=0; while true; do i=$((i+1)); echo "docker $i"; sleep 1; done;'
+    $ tail -f /var/log/syslog
 
 Container sichern & beschränken
 ===
