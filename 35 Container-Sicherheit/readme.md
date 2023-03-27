@@ -78,6 +78,7 @@ Container sichern & beschränken
 ## Berechtigungs-Verteilung ##
 
 **Kernel Exploits**
+
 Im Gegensatz zu einer Virtual Machine wird der Kernel von Containern gemeinsam mit dem Host verwendet, wodurch Schwachstellen im Kernel erhebliche Auswirkungen haben können. Sollte ein Container eine Kernel Panic verursachen, führt das zum Absturz des gesamten Hosts. In VMs ist die Situation besser, da ein Angreifer sowohl den VM-Kernel als auch den Hypervisor angreifen müsste, bevor er auf den Host-Kernel zugreifen kann.
 
 **Denial-of-Service-(DoS-)Angriffe**
