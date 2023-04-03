@@ -117,9 +117,9 @@ Weitere Massnahmen:
     Beim Einsatz sicherheitskritischer Container:
 
 
-## Weitere Sicherheitstipps ## 
+## Weitere Sicherheitstipps ##  
 
-Kontinuierliche Integration
+Kontinuierliche Integration 
 ===
 
 

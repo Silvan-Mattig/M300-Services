@@ -30,7 +30,7 @@ Folgende Befehle im Bash ausführen:
     ```
     Generating public/private rsa key pair.
     ```
-3. Namensabfrage für den Schlüssel
+3. Namensabfrage für den Schlüssel 
    ```
    Enter a file in which to save the key (~/.ssh/id_rsa): 
    ```
