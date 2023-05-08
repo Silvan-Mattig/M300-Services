@@ -315,6 +315,8 @@ Es gibt verschiedene Möglichkeiten, Images neben dem Docker Hub bereitzustellen
 Prüfung der Dockerfiles M300/30-Container
 ===
 
+Nachdem ausführen des Befehls sollte das so aussehen: 
+
 ![Nach Ausführung des Dockerfiles](../Screenshot/Apache%20Build.png)
 
 
