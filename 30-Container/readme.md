@@ -18,16 +18,12 @@ Inhaltsverzeichnis
 Container
 ===
 
-[&uarr; nach oben](https://github.com/Silvan-Mattig/M300-Services/tree/main/30-Container#m300---30-container)
-
 Ein Container ist ein Konzept der Informatik, das hilfreich ist, um Anwendungen in einer Umgebung auszuführen, die isoliert und unabhängig von anderen Anwendungen und dem Betriebssystem des Computers ist.
 
 Ein Vorteil von Containern ist, dass sie portabel sind und auf verschiedenen Betriebssystemen und Servern ausgeführt werden können, solange sie die Container-Software unterstützen. Durch die Verwendung von Containern können Anwendungen schneller bereitgestellt und skaliert werden, da sie unabhängig von der zugrunde liegenden Infrastruktur sind und somit schneller und einfacher bereitgestellt werden können.
 
 Docker
 ===
-
-[&uarr; nach oben](https://github.com/Silvan-Mattig/M300-Services/tree/main/30-Container#m300---30-container)
 
 ## Wichtige Befehle für Docker ##
 
@@ -50,8 +46,6 @@ Docker
 | `docker pull` | Lädt ein Docker-Image von Docker Hub oder einer anderen Docker-Registry herunter |
 
 # Installation Docker Desktop und Aktivierung von WSL2 #
-
-[&uarr; nach oben](https://github.com/Silvan-Mattig/M300-Services/tree/main/30-Container#m300---30-container)
 
 1. Laden Sie Docker Desktop für Windows herunter. 
 
