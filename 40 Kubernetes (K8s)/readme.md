@@ -6,15 +6,11 @@ Inhaltsverzeichnis
 
 [Grundbegriffe](https://github.com/Silvan-Mattig/M300-Services/tree/main/40%20Kubernetes%20(K8s)#grundbegriffe)
 
+[Kubernetes](https://github.com/Silvan-Mattig/M300-Services/tree/main/40%20Kubernetes%20(K8s)#lastenverteilung)
+
+[Cluster](https://github.com/Silvan-Mattig/M300-Services/tree/main/40%20Kubernetes%20(K8s)#cluster)
+
 [Kubernetes](https://github.com/Silvan-Mattig/M300-Services/tree/main/40%20Kubernetes%20(K8s)#kubernetes)
-
-[Kubernetes Cluster](https://github.com/Silvan-Mattig/M300-Services/tree/main/40%20Kubernetes%20(K8s)#kubernetes-cluster)
-
-[Kubernetes Cluster](https://github.com/Silvan-Mattig/M300-Services/tree/main/40%20Kubernetes%20(K8s)#lastenverteilung)
-
-[Kubernetes Cluster](https://github.com/Silvan-Mattig/M300-Services/tree/main/40%20Kubernetes%20(K8s)#cluster)
-
-[Kubernetes Cluster](https://github.com/Silvan-Mattig/M300-Services/tree/main/40%20Kubernetes%20(K8s)#kubernetes)
 
 [Kubernetes Cluster](https://github.com/Silvan-Mattig/M300-Services/tree/main/40%20Kubernetes%20(K8s)#kubernetes-cluster)
 
