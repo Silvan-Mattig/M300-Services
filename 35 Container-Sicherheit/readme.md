@@ -178,6 +178,34 @@ Diese lassen sich auch auf Docker-Container anwenden – entweder durch Übergab
 
 Kontinuierliche Integration 
 ===
+Kontinuierliche Integration beschreibt den Prozess der fortlaufenden Zusammenführung von Komponenten in der Software-Entwicklung mit dem Ziel, die Softwarequalität zu steigern. Dazu werden typischerweise nicht nur Übersetzung und Linking durchgeführt, sondern auch automatisierte Tests und Metriken zur Messung der Softwarequalität erstellt. Der Prozess wird automatisch ausgelöst durch Einchecken in die Versionsverwaltung.
+
+Die folgenden Grundsätze sind entscheidend für eine erfolgreiche Umsetzung von CI:
+
+    Gemeinsame Codebasis
+    Automatisierte Übersetzung
+    Kontinuierliche Test-Entwicklung
+    Häufige Integration
+    Integration in den Hauptbranch
+    Kurze Testzyklen
+    Gespiegelte Produktionsumgebung
+    Einfacher Zugriff
+    Automatisiertes Reporting
+
+Jenkins & Blue Ocean
+===
+Travis CI ist ein Cloud-basiertes CI-System, das sich durch eine gute Integration mit GitHub auszeichnet.
+
+Jenkins ist ein beliebter Open-Source-CI-Server. Die kontinuierliche Lieferung sollte mit Jenkins nicht schwierig sein. Blue Ocean ist ein Plugin für Jenkins, das die Benutzeroberfläche verbessert und Jenkins für die Bedürfnisse von normalen Entwicklern vereinfacht. Um Jenkins und Blue Ocean nutzen zu können, wird eine Applikation bzw. ein Service benötigt, die in einem Git-Repository gespeichert ist und im Repository selbst die Datei Jenkinsfile enthält.
+
+Unittest
+====
+
+Oder auch Komponententest gennant wird in der Softwareentwicklung verwendet um Einzelteile eines Computerprogrammes zu testen.
+
+Das für wird meistens ein Diagramm erstellt, damit man immer den gleichen Ablauf hat.
+
+![Unittest-Diagramm](../../Downloads/Screenshot%202023-05-08%20132304.png)
 
 
-
+ö
