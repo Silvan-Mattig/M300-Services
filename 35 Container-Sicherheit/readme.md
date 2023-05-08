@@ -70,11 +70,6 @@ Wenn man als System Administrator bei einem Microservices-System arbeitet, ist m
 Container sichern & beschränken
 ===
 
-
-## Sicherheitsprobleme ##
-
-
-
 ## Berechtigungs-Verteilung ##
 
 **Kernel Exploits** <br>
@@ -118,8 +113,6 @@ Weitere Massnahmen:
 
 
 ## Weitere Sicherheitstipps ##  
-
-Weitere Sicherheitstipps
 
 Diese Seite enthält praktische Tipps zum Absichern von Container-Deployments.
 Nicht alle Ratschläge werden für alle Deployments umsetzbar sein, aber man sollte sich mit den grundlegenden Tools vertraut machen, die eingesetzt werdenkönnen.
@@ -205,5 +198,5 @@ Oder auch Komponententest gennant wird in der Softwareentwicklung verwendet um E
 
 Das für wird meistens ein Diagramm erstellt, damit man immer den gleichen Ablauf hat.
 
-(![Unittest-Diagramm](../Screenshot/Screenshot%202023-05-08%20132304.png))
+![Unittest-Diagramm](../Screenshot/Screenshot%202023-05-08%20132304.png)
 
