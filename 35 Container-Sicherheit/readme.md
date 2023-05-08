@@ -109,11 +109,6 @@ Natürlich können die konkreten Schritte zur Absicherung von Containern je nach
 
 8. Einschränken des Zugriffs auf Host-Ressourcen wie Dateien oder Verzeichnisse durch die Verwendung von Volumes oder Bind Mounts mit gezielten Berechtigungen.
 
-Weitere Massnahmen:
-
-    Beim Einsatz sicherheitskritischer Container:
-
-
 ## Weitere Sicherheitstipps ##  
 
 Diese Seite enthält praktische Tipps zum Absichern von Container-Deployments.
