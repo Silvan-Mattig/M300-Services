@@ -334,5 +334,19 @@ Apache http https
 
 ![Alt text](../Screenshot/http_Server.png)
 
+![Alt text](../Screenshot/Apache%202.png)
+
+Dockerfile_MySQL
+
+![Alt text](../Screenshot/mysql.png)
+
+![Alt text](../Screenshot/mysql1.png)
+
+![Alt text](../Screenshot/mysql2.png)
+
+Image-Bereitstellung
+![Alt text](../Screenshot/Image.png)
+
+
 
 
