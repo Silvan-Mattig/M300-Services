@@ -312,7 +312,7 @@ Das TAR-Format dient der Archivierung und Komprimierung von Dateien und Verzeich
 Es gibt verschiedene Möglichkeiten, Images neben dem Docker Hub bereitzustellen, aber die manuelle Erstellung oder der Export/Import von Images sind suboptimale Optionen. Das Erstellen von Images aus Dockerfiles auf jedem Host ist langsam und kann zu unterschiedlichen Images führen, während das Exportieren und Importieren von Images knifflig und fehleranfällig sein kann. Stattdessen wird empfohlen, eine andere Registry zu verwenden, die selbst gehostet oder von einem anderen Unternehmen betrieben wird.
 
 
-Nachvollziehbare Prüfung der Dockerfiles M300/30-Container
+Nachvollziehbare Tests M300/30-Container
 ===
 
 Nachdem ausführen des Befehls sollte das so aussehen: 
