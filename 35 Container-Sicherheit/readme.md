@@ -216,3 +216,16 @@ Container_sichern & beschränken
 
 
 
+Reflexion
+===
+
+Während des herausfordernden Moduls wurden wir als Team vor eine Vielzahl von komplexen und anspruchsvollen Hindernissen gestellt. Trotzdem haben wir uns nicht entmutigen lassen und hart daran gearbeitet, diese Schwierigkeiten zu überwinden.
+Mit Entschlossenheit, Kreativität und gegenseitiger Unterstützung haben wir uns zusätzliche Aufgaben gestellt, um unsere Fähigkeiten weiterzuentwickeln und unser Potenzial vollständig auszuschöpfen.
+
+Unser Teamgeist war beeindruckend und wir haben eng zusammen gearbeitet, um die gestellten Herausforderungen zu meistern. Die Zusammenarbeit war ein wichtiger Faktor für unseren Erfolg und ich bin stolz darauf, Teil eines solch motivierten Teams zu sein.
+Wir haben uns gegenseitig inspiriert, motiviert und unterstützt, um unsere Ziele zu erreichen.
+
+Die schwierigen Aufgaben, die wir als Team bewältigt haben, haben mir gezeigt, dass ich auch in Zukunft in der Lage bin, komplexe Herausforderungen zu meistern. Ich habe während des Moduls mein Wissen erweitert und meine Fähigkeiten verbessert. Diese Erfahrung hat mich zuversichtlich gemacht, dass ich auch in Zukunft meine Kompetenzen auf kreative und innovative Weise einsetzen und weiterentwickeln kann.
+
+Insgesamt bin ich stolz auf unsere Leistung und den beeindruckenden Teamgeist, den wir während des Moduls gezeigt haben. Ich bin dankbar für diese Erfahrung und freue mich auf zukünftige Herausforderungen, die wir als Team gemeinsam meistern werden.
+
